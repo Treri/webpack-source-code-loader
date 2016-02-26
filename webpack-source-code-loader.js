@@ -153,22 +153,6 @@
   }
 
   /**
-   * 判断是否为一个空白对象
-   */
-  function isPlainObject(obj) {
-    var isPlain = true;
-
-    for(var prop in obj){
-      if(obj.hasOwnProperty(prop)){
-        isPlain = false;
-        break;
-      }
-    }
-
-    return isPlain;
-  }
-
-  /**
    * 复制源对象的属性到目标对象中
    * 支持一次从多个source中进行扩展
    */
@@ -191,10 +175,6 @@
     }
 
     return target;
-  }
-
-  function makeError(name, msg) {
-    throw new Error(name + ":" + msg);
   }
 
   /**
