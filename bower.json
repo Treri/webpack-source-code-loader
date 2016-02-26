@@ -1,0 +1,24 @@
+{
+  "name": "webpack-source-code-loader",
+  "description": "develop with source code in webpack project, without webpack-dev-server or webpack build",
+  "main": "webpack-source-code-loader.js",
+  "authors": [
+    "Treri"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "source",
+    "code",
+    "loader"
+  ],
+  "homepage": "https://github.com/Treri/webpack-source-code-loader",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
